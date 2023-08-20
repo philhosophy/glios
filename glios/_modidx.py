@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://philhosophy.github.io',
                 'git_url': 'https://github.com/philhosophy/glios',
                 'lib_path': 'glios'},
-  'syms': {'glios.core': {'glios.core.foo': ('core.html#foo', 'glios/core.py')}}}
+  'syms': { 'glios.core': {'glios.core.foo': ('core.html#foo', 'glios/core.py')},
+            'glios.glios_module1': { 'glios.glios_module1.foo': ('glios_module1.html#foo', 'glios/glios_module1.py'),
+                                     'glios.glios_module1.say_hello': ('glios_module1.html#say_hello', 'glios/glios_module1.py')}}}
